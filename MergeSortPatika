@@ -1,0 +1,15 @@
+[16,21,11,8,12,22] -> Merge Sort
+**Yukarıdaki dizinin sort türüne göre aşamalarını yazınız**
+
+[16,21,11,8,12,22] Başlangıç
+[16,21,11] - [8,12,22] eşit iki diziye bölündü
+[16,21][11] - [8][12,22] eşit dizilere bölündü
+[16][21][11] - [8][12][22] dizilerdeki elemanlar tek bırakıldı
+[16,21][11] - [8][12,22] diziler kendi içerisinde sıralandı
+[11,16,21] - [8,12,22] sıralama yapılarak üç elemanlık diziler oluşturuldu
+[8,11,12,16,21,22] diziler birleştirilirken küçükten büyüğe sıralaması yapılarak merge sort tamamlandı
+
+**Big-O gösterimini yazınız**
+
+sıralı işlem yapıldığından dolayı
+o(nlogn)
